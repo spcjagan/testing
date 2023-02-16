@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(105,225,105)
+}
+header{
+    display:block;
+    flex-wrap: nowrap;
+}
+
+ul{
+    padding:15px;
+    
+}
+li{
+    background-color: aqua;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end  ;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 170px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold
+}
+li:hover{
+    background-color:burlywood;
+}
